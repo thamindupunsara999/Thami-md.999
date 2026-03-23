@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `THAMI-MD connected 🙈\n\nPREFIX: ${prefix}`;
       await danuwa.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `` },
+        image: { url: `images/FB_IMG_17741707358998685.jpg` },
         caption: up
       });
 
