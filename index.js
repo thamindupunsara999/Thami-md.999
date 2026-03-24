@@ -179,7 +179,7 @@ async function connectToWA() {
 ensureSessionFile();
 
 app.get("/", (req, res) => {
-  res.send("Hey, DANUWA-MD started✅");
+  res.send("Hy, THAMI-MD connected");
 });
 
 app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));
